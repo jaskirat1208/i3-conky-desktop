@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-from abc import abstractmethod
-
 import netifaces
-import subprocess
 
 BOX_HEIGHT = 20
 BAR_HEIGHT = 5
@@ -85,8 +82,6 @@ class NetworkInfo:
 
 def hr():
     return '${color dark grey}$hr $color\n'
-
-
 
 
 def main():
