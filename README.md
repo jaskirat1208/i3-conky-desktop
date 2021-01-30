@@ -5,6 +5,9 @@ wget
 i3wm
 grep
 whoami
+conky
+toilet
+feh
 python packages:
   feedparser
   subprocess
